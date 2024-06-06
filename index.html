@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Biciclétas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
 
   <header class="header-bg">
     <div class="header container">
-      <a href="./"><img src="./Bikcraft_arquivos/img/svg_Bikcraft.svg" alt="Bikcraft">
+      <a href="./"><img src="./Bikcraft_arquivos/img/svg_Bikcraft.svg" width="136" height="30" alt="Bikcraft">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -37,9 +37,10 @@
         <p class="font-2-l cor-5">Biciclétas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="./bicicletas.html">selecione a sua</a>
       </div>
-      <div>
-        <img src="./Bikcraft_arquivos/img/fotos/introducao.jpg" alt="bicicleta elétrica preta">
-      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./Bikcraft_arquivos/img/bicicleta/nimbus.jpg">
+        <img src="./Bikcraft_arquivos/img/fotos/introducao.jpg" width="1280" height="1600" alt="bicicleta elétrica preta">
+      </picture>
     </div>
   </main>
 
@@ -48,19 +49,19 @@
 
     <ul>
       <a href="./bicicletas/magic.html">
-        <li><img src="./Bikcraft_arquivos/img/bicicletas/magic.jpg" alt="Bicicleta preta">
+        <li><img src="./Bikcraft_arquivos/img/bicicletas/magic.jpg" width="920" height="1040" alt="Bicicleta preta">
           <h3 class="font-1-xl">Magic Might</h3>
           <span class="font-2-m cor-8">R$ 2499</span>
         </li>
       </a>
       <a href="./bicicletas/nimbus.html">
-        <li><img src="./Bikcraft_arquivos/img/bicicletas/nimbus.jpg" alt="Bicicleta preta">
+        <li><img src="./Bikcraft_arquivos/img/bicicletas/nimbus.jpg" width="920" height="1040" alt="Bicicleta preta">
           <h3 class="font-1-xl">Nimbus Stark</h3>
           <span class="font-2-m cor-8">R$ 4999</span>
         </li>
       </a>
       <a href="./bicicletas/nebula.html">
-        <li><img src="./Bikcraft_arquivos/img/bicicletas/nebula.jpg" alt="Bicicleta preta">
+        <li><img src="./Bikcraft_arquivos/img/bicicletas/nebula.jpg" width="920" height="1040" alt="Bicicleta preta">
           <h3 class="font-1-xl">Nebula Cosmic</h3>
           <span class="font-2-m cor-8">R$ 3999</span>
         </li>
@@ -77,19 +78,19 @@
         <a class="link" href="./bicicletas.html">escolha um modelo</a>
         <div class="tecnologia-vantagens">
           <div>
-            <img src="./Bikcraft_arquivos/img/icones/eletrica.svg" alt="">
+            <img src="./Bikcraft_arquivos/img/icones/eletrica.svg" width="24" height="24" alt="">
             <h3 class="font-1-m cor-0">Motor Elétrico</h3>
             <p class="font-2-s cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
           <div>
-            <img src="./Bikcraft_arquivos/img/icones/rastreador.svg" alt="">
+            <img src="./Bikcraft_arquivos/img/icones/rastreador.svg" width="24" height="24" alt="">
             <h3 class="font-1-m cor-0">Rastreador</h3>
             <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
         </div>
       </div>
       <div class="tecnologia-imagem">
-        <img src="./Bikcraft_arquivos/img/fotos/tecnologia.jpg" alt="">
+        <img src="./Bikcraft_arquivos/img/fotos/tecnologia.jpg" width="1280" height="1920" alt="">
       </div>
   </article>
 
@@ -97,19 +98,19 @@
     <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
 
     <ul>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/caravan.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/dogs.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/flexblog.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/handel.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/lescone.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/ranek.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/surfbot.svg" alt=""></li>
-      <li><img src="./Bikcraft_arquivos/img/parceiros/wildbeast.svg" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/caravan.svg" width="140" height="38" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/dogs.svg" width="152" height="39" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/flexblog.svg" width="164" height="38" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/handel.svg" width="139" height="50" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/lescone.svg" width="208" height="41" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/ranek.svg" width="148" height="36" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/surfbot.svg" width="200" height="49" alt=""></li>
+      <li><img src="./Bikcraft_arquivos/img/parceiros/wildbeast.svg" width="196" height="34" alt=""></li>
     </ul>
   </section>
 
   <section class="depoimento" aria-label="depoimento">
-    <div class="depoimento-imagem"><img src="./Bikcraft_arquivos/img/fotos/depoimento.jpg" alt="Pessoa pedalando em uma Bikcraft"></div>
+    <div class="depoimento-imagem"><img src="./Bikcraft_arquivos/img/fotos/depoimento.jpg" width="1880" height="1528" alt="Pessoa pedalando em uma Bikcraft"></div>
     <div class="depoimento-conteudo">
       <blockquote class="font-1-xl cor-p5">
         <p>Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
@@ -149,7 +150,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <img src="./Bikcraft_arquivos/img/svg_Bikcraft.svg" alt="">
+      <img src="./Bikcraft_arquivos/img/svg_Bikcraft.svg" width="136" height="30" alt="">
       <div class="footer-contato">
         <h3 class="font-2-l-b cor-0">Contato</h3>
         <ul class="font-2-m cor-5">
@@ -160,13 +161,13 @@
         </ul>
         <div class="footer-redes">
           <a href="./">
-            <img src="./Bikcraft_arquivos/img/Redes/instagram.svg" alt="Instagram">
+            <img src="./Bikcraft_arquivos/img/Redes/instagram.svg" width="39" height="39" alt="Instagram">
           </a>
           <a href="./">
-            <img src="./Bikcraft_arquivos/img/Redes/facebook.svg" alt="Facebook">
+            <img src="./Bikcraft_arquivos/img/Redes/facebook.svg" width="39" height="39" alt="Facebook">
           </a>
           <a href="./">
-            <img src="./Bikcraft_arquivos/img/Redes/youtube.svg" alt="Youtube">
+            <img src="./Bikcraft_arquivos/img/Redes/youtube.svg" width="39" height="39" alt="Youtube">
           </a>
         </div>
       </div>
