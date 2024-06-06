@@ -4,7 +4,7 @@
   background-color: var(--cor-p1);
   overflow: hidden;
 }
-.depoimento-imagem img {
+.depoimento img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -46,7 +46,7 @@
 
 @media (min-width: 1200px) {
   .depoimento img {
-    max-height: 120px;
+    max-height: 650px;
   }
 }
 
